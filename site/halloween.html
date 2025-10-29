@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halloween</title>
+    <style>
+      body {
+        background-color: #292f6b;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      .layout {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 80px;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      .cima {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box1,
+      .box2 {
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+
+      .mesa,
+      .bruxaimg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .texto {
+        color: white;
+        margin-bottom: 15px;
+      }
+
+      .linha {
+        width: 500px;
+        height: 6px;
+        background-color: white;
+        margin: 10px auto;
+        border-radius: 3px;
+      }
+
+      .direita {
+        width: 150px;
+        gap: 10px;
+      }
+
+      .abobora {
+        background-color: white;
+        width: 500px;
+        height: 700px;
+        border-radius: 10px;
+      }
+
+      .abobora2 {
+        width: 500px;
+        height: 600px;
+    }
+
+      .information {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .data h3 {
+        margin: 0;
+        letter-spacing: -0.1em;
+        font-size: 2em;
+        color: #327dc9;
+      }
+
+      .data h4 {
+        margin: -0.4em;
+        font-size: 1.2em;
+        color: #327dc9;
+      }
+
+      .titulo h5 {
+        margin: 0;
+        color: black;
+        font-size: 1em;
+      }
+
+      .loginabobora {
+        background-color: white;
+        width: 500px;
+        height: 120px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      .abobora3 {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
+
+      .botao {
+        position: absolute;
+        top: 785px;
+        left: 900px;
+        background-color: transparent;
+        color: black;
+        border: none;
+        cursor: pointer;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+      }
+
+      .creditos{
+        font-size: 0.8em;
+        color: gray;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="cima">
+        <div class="box1">
+          <img
+            src="https://images.pexels.com/photos/619423/pexels-photo-619423.jpeg?auto=compress&cs=tinysrgb&w=600"
+            class="mesa"
+            alt="Mesa com cenas"
+          />
+        </div>
+        <div class="texto">
+          <h1>Design Hipermédia: CSS</h1>
+          <h2>Halloween</h2>
+          <div class="linha"></div>
+        </div>
+        <div class="box2">
+          <img
+            src="https://media.istockphoto.com/id/175195916/photo/halloween-casino-witch-with-smoking-pipe-and-pumpkins.jpg?s=612x612&w=is&k=20&c=vlH2OV6tCuh_h2IwvP0GHks41uKbhBlzucZNhUkiuCA="
+            alt="Bruxa"
+            class="bruxaimg"
+          />
+        </div>
+      </div>
+      <div class="direita">
+        <div class="abobora">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Pumpkins_with_candles_%28Unsplash%29.jpg/1599px-Pumpkins_with_candles_%28Unsplash%29.jpg?20170818192652"
+            alt="Abóbora no mato"
+            class="abobora2"
+          />
+          <div class="information">
+            <div class="data">
+              <h3>31</h3>
+              <h4>Out</h4>
+            </div>
+            <div class="titulo">
+              <h5>OS MELHORES WEBSITES DE HALLOWEEN</h5>
+            <div class="creditos">
+              <h>Por Marco Olim</h>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="loginabobora">
+          <img
+            src="https://media.istockphoto.com/id/1174282589/photo/halloween-jack-o-lantern-bucket-filled-with-candy-isolated-on-white.jpg?s=612x612&w=0&k=20&c=tuvcuOM1xD8Pfj9yLl9mjYqyssOxr_bqjuTZwykE-CE="
+            alt="abobora Felix"
+            class="abobora3"
+          />
+          <button class="botao">
+            LOGIN
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
